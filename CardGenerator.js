@@ -1,4 +1,4 @@
-//require constructors and inquire prompts
+//require constructors and inquirer prompt
 var BasicCard = require("./BasicCard");
 var ClozeCard = require("./ClozeCard");
 var inquirer = require("inquirer");

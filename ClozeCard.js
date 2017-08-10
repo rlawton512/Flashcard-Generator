@@ -10,8 +10,9 @@ var ClozeCard = function(text, cloze){
         var correctCloze = fullText.includes(this.cloze)
         //if true display data 
         if(correctCloze){
-        console.log("\nCloze Flashcard has been created!\n")
-        console.log(`Cloze text: ${cloze}`);
+        console.log("\nCloze flashcard has been created!\n")
+        //cloze text test
+        // console.log(`Cloze text: ${cloze}`);
         console.log(`Partial text: ${partial}`);
         console.log(`Full text:  ${fullText}\n`);
         }
